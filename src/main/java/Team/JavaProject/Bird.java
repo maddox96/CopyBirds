@@ -1,4 +1,6 @@
 package Team.JavaProject;
 
-public class Bird {
+public class Bird
+{
 }
+

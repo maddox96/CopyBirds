@@ -1,4 +1,5 @@
 package Team.JavaProject;
 
-public class ColumnFactory {
+public class ColumnFactory
+{
 }
