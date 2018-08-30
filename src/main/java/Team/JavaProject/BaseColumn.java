@@ -2,20 +2,18 @@ package Team.JavaProject;
 
 import java.util.Random;
 
-public abstract class BaseColumn
+public class BaseColumn implements IColumn
 {
     public int getX()
     {
         return x;
     }
-
     public int getH()
     {
         return h;
     }
 
-    public void RandHeight()
-    {
+    public void RandHeight()    {
         Random rand = new Random();
         if (bl == false)
         {
@@ -24,14 +22,11 @@ public abstract class BaseColumn
             bl = true;
         }
     }
-
     public void DecrementX()
     {
         x--;
     }
-
-    public void ReplayX()
-    {
+    public void ReplayX()    {
         if (x == -240)
         {
             x = 500;
